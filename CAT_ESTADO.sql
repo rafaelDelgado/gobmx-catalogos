@@ -1,0 +1,40 @@
+CREATE TABLE `CAT_ESTADO` (
+  `CVE_ENT` varchar(2) NOT NULL,
+  `NOM_ENT` varchar(50) NOT NULL,
+  PRIMARY KEY (`CVE_ENT`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `CAT_ESTADO` (`CVE_ENT`, `NOM_ENT`)
+VALUES
+	('01', 'AGUASCALIENTES'),
+	('02', 'BAJA CALIFORNIA'),
+	('03', 'BAJA CALIFORNIA SUR'),
+	('04', 'CAMPECHE'),
+	('05', 'COAHUILA DE ZARAGOZA'),
+	('06', 'COLIMA'),
+	('07', 'CHIAPAS'),
+	('08', 'CHIHUAHUA'),
+	('09', 'DISTRITO FEDERAL'),
+	('10', 'DURANGO'),
+	('11', 'GUANAJUATO'),
+	('12', 'GUERRERO'),
+	('13', 'HIDALGO'),
+	('14', 'JALISCO'),
+	('15', 'MÉXICO'),
+	('16', 'MICHOACÁN DE OCAMPO'),
+	('17', 'MORELOS'),
+	('18', 'NAYARIT'),
+	('19', 'NUEVO LEÓN'),
+	('20', 'OAXACA'),
+	('21', 'PUEBLA'),
+	('22', 'QUERÉTARO'),
+	('23', 'QUINTANA ROO'),
+	('24', 'SAN LUIS POTOSÍ'),
+	('25', 'SINALOA'),
+	('26', 'SONORA'),
+	('27', 'TABASCO'),
+	('28', 'TAMAULIPAS'),
+	('29', 'TLAXCALA'),
+	('30', 'VERACRUZ DE IGNACIO DE LA LLAVE'),
+	('31', 'YUCATÁN'),
+	('32', 'ZACATECAS');
